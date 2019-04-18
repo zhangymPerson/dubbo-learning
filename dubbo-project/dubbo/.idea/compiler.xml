@@ -15,7 +15,7 @@
       <module name="client" target="1.5" />
       <module name="command" target="1.5" />
       <module name="dubbo" target="1.5" />
-      <module name="provide" target="1.5" />
+      <module name="provide" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
