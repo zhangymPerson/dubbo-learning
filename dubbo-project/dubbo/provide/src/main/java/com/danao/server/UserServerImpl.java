@@ -1,6 +1,5 @@
 package com.danao.server;
 
-import com.alibaba.dubbo.config.annotation.Service;
 import com.danao.bean.User;
 
 /**
@@ -14,7 +13,7 @@ import com.danao.bean.User;
  * @since 1.0
  */
 //todo dubbo服务注解 与配置文件的内容呼应 注解的是实现类 可以 添加 版本号
-@Service(version = "1.0.1")
+//@Service(version = "1.0.1")
 public class UserServerImpl implements UserServer {
 	@Override
 	public User getUser() {

@@ -1,6 +1,5 @@
 package com.danao.server;
 
-import com.alibaba.dubbo.config.annotation.Service;
 import com.danao.bean.User;
 
 /**
